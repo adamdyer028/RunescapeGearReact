@@ -1,5 +1,8 @@
-
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
 import './App.css';
+import UserDisplayComponent from './components/UserDisplayComponent';
+
 
 
 function GearItem({imgSrc, className}) {
@@ -30,17 +33,31 @@ function GearLayout() {
         <GearItem className="feet" imgSrc="/images/feet.png"/>
         <GearItem className="ring" imgSrc="/images/ring.png"/>
       </div>
-    </div>
+    </div>  
+  );
+}
+
+function GearSelect() {
+  return (
+  <div>
+    <h1>Select Your Gear:</h1>
+    <GearLayout /> 
+    <UserDisplayComponent />
+  </div>
   );
 }
 
 export default function App() {
   return (
-  <div>
-    <h1>Select Your Gear:</h1>
-    <GearLayout /> 
-  </div>
+    <div className='gearComponent'>
+      <GearSelect />
+      <input type='text'></input>
+    </div>
   );
 }
+
+
+
+
 
 
