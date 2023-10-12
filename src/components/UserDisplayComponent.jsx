@@ -1,6 +1,7 @@
 import React, { Component, useState } from 'react';
 import UserService from '../services/UserService';
 
+
 class UserDisplayComponent extends Component {
     constructor(props) {
         super(props);
@@ -23,6 +24,7 @@ class UserDisplayComponent extends Component {
                             <tr>
                                 <th> User Username</th>
                                 <th> User Password</th>
+                                <th> User Stats </th>
                             </tr>
                         </thead>
                         <tbody>
@@ -32,6 +34,7 @@ class UserDisplayComponent extends Component {
                                     <tr key={user.id}>
                                         <td> {user.username} </td>
                                         <td> {user.password} </td>
+                                        {/* <td> {hiscores.getStats(user.username)}</td> */}
                                     </tr>
                                 )
                             }

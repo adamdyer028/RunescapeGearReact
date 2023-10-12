@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
 import './App.css';
 import UserDisplayComponent from './components/UserDisplayComponent';
+import NavBarComponent from './components/NavBarComponent';
 
 
 
@@ -50,12 +51,10 @@ function GearSelect() {
 export default function App() {
   return (
     <div className='gearComponent'>
-      <GearSelect />
-      <input type='text'></input>
+      <NavBarComponent />
     </div>
   );
 }
-
 
 
 

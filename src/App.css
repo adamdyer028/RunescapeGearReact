@@ -60,10 +60,37 @@
   grid-row: 5;
   grid-column: 3;
 }
-.gearComponent {
-  
-  max-width: fit-content;
-  
-  margin: auto;
-}
 
+.mainLogo {
+  border-radius: 50%;
+  height: 50px;
+  
+}
+.homeIcon {
+  padding-right: 15px;
+  height: 35px;
+}
+.friendsIcon {
+  padding-right: 15px;
+  height: 40px;
+}
+.statsIcon {
+  height: 30px;
+}
+.messageIcon {
+  padding-right: 15px;
+  height: 30px;
+}
+.notificationIcon {
+  padding-right: 15px;
+  height: 35px;
+}
+.profileIcon {
+  height: 35px;
+}
+.middleButtons {
+  padding-left: 650px;
+}
+.rightButtons {
+  padding-left: 750px;
+}
