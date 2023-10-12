@@ -20,19 +20,23 @@ class NavBarComponent extends Component {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <img src={logo} alt="logo" className="mainLogo d-inline-block align-top "></img>
-                    <input className="searchInput" type="search" placeholder="Search..."></input>
-
+                    <div >
+                    <img src={logo} alt="logo" className="mainLogo d-inline-block"></img> 
+                    <input className="navSearch" type="text" placeholder="Search..."></input> 
+                    </div>        
+                    
+                    
+            
                     <div className="middleButtons">
-                        <a href="#home"><img src={home} alt="home" className="homeIcon"></img></a>
-                        <a href="#friends"><img src={people} alt="friends" className="friendsIcon"></img></a>
-                        <a href="#stats"><img src={stats} alt="stats" className="statsIcon"></img></a>
+                        <a className="nav-item" href="#home"><img src={home} alt="home" className="icon"></img></a>
+                        <a className="nav-item" href="#friends"><img src={people} alt="friends" className="icon"></img></a>
+                        <a className="nav-item" href="#stats"><img src={stats} alt="stats" className="icon"></img></a>
                     </div>
                     
                     <div className="rightButtons">
-                        <a href="#messages"><img src={messages} alt="messages" className="messageIcon"></img></a>
-                        <a href="#notifications"><img src={notification} alt="notifications" className="notificationIcon"></img></a>
-                        <a href="#stats"><img src={home} alt="profile" className="profileIcon"></img></a>
+                        <a className="nav-item" href="#messages"><img src={messages} alt="messages" className="icon"></img></a>
+                        <a className="nav-item" href="#notifications"><img src={notification} alt="notifications" className="icon"></img></a>
+                        <a className="nav-item" href="#stats"><img src={home} alt="profile" className="icon"></img></a>
                     </div>
                 </nav>
             </div>  

@@ -64,33 +64,14 @@
 .mainLogo {
   border-radius: 50%;
   height: 50px;
+  padding-left: 10px;
   
 }
-.homeIcon {
-  padding-right: 15px;
+.icon {
   height: 35px;
+  padding-right: 10px;
 }
-.friendsIcon {
-  padding-right: 15px;
-  height: 40px;
-}
-.statsIcon {
-  height: 30px;
-}
-.messageIcon {
-  padding-right: 15px;
-  height: 30px;
-}
-.notificationIcon {
-  padding-right: 15px;
-  height: 35px;
-}
-.profileIcon {
-  height: 35px;
-}
-.middleButtons {
-  padding-left: 650px;
-}
-.rightButtons {
-  padding-left: 750px;
+.navSearch {
+  margin-left: 10px;
+  width: 200px;
 }
