@@ -7,7 +7,7 @@ import messages from '../images/email.png';
 import notification from '../images/notification.png';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-
+import profilePic from '../images/00027-2575342202.png';
 
 class NavBarComponent extends Component {
     constructor(props) {
@@ -27,16 +27,14 @@ class NavBarComponent extends Component {
                     
                     
             
-                    <div className="middleButtons">
+                    <div className="buttons">
                         <a className="nav-item" href="#home"><img src={home} alt="home" className="icon"></img></a>
                         <a className="nav-item" href="#friends"><img src={people} alt="friends" className="icon"></img></a>
                         <a className="nav-item" href="#stats"><img src={stats} alt="stats" className="icon"></img></a>
-                    </div>
                     
-                    <div className="rightButtons">
                         <a className="nav-item" href="#messages"><img src={messages} alt="messages" className="icon"></img></a>
                         <a className="nav-item" href="#notifications"><img src={notification} alt="notifications" className="icon"></img></a>
-                        <a className="nav-item" href="#stats"><img src={home} alt="profile" className="icon"></img></a>
+                        <a className="nav-item" href="#stats"><img src={profilePic} alt="profile" className="icon proPic"></img></a>
                     </div>
                 </nav>
             </div>  

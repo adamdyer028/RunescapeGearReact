@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import UserDisplayComponent from './components/UserDisplayComponent';
 import NavBarComponent from './components/NavBarComponent';
+import FeedComponent from './components/FeedComponent';
 
 
 
@@ -52,6 +53,7 @@ export default function App() {
   return (
     <div className='gearComponent'>
       <NavBarComponent />
+      <FeedComponent />
     </div>
   );
 }

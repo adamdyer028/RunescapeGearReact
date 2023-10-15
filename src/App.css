@@ -69,9 +69,21 @@
 }
 .icon {
   height: 35px;
-  padding-right: 10px;
+  padding-right: 100px;
 }
 .navSearch {
   margin-left: 10px;
   width: 200px;
+}
+.feed{
+  background-color: lightgray;
+  border-radius: 10%;
+  width: 50%;
+  margin-left: 25%;
+}
+.buttons {
+  margin-left: 300px;
+}
+.proPic {
+  border-radius: 50%;
 }
